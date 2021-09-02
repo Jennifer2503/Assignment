@@ -1,0 +1,111 @@
+body{
+	font-size: 16px;
+ font-family: 'Source Sans Pro', sans-serif;;
+}
+
+/*Header*/
+
+#header-nav{
+	background: #FFD3CC;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom:0;
+  line-height: .75;
+  position: relative;
+  top: -10px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+#nav-list a {
+  color:black;
+  font-weight: bolder;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #CFF3CA;
+  color: floralwhite;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+
+#main
+{
+ margin-top: 20px;
+}
+#title{
+  font-weight: bolder;
+  color: #CFF3CA;
+}
+
+#border
+{
+  border: 1px solid black;
+  background-color: #FEF3D8;
+}
+#border h3{
+  color: #95CBCC;
+}
+#details p{
+  padding: 10px;
+  text-transform: justify;
+}
+
+@media (max-width: 990px) and (min-width: 761px){
+  #collapsable-nav{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 760px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+    float: left;
+    width: 100%;
+  }
+
+}
+
